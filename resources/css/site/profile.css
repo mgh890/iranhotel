@@ -1,0 +1,697 @@
+#profile{
+    margin-top: -243px;
+    position: relative;
+    margin-bottom: 22px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    color: #dfab57 !important;
+background-color: transparent !important;
+    border: 0 !important;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+
+}
+.nav > li > a:focus, .nav > li > a:hover{
+    background-color: transparent !important;
+    border-color:transparent !important ;
+}
+.nav-tabs > li > a{
+    border: 0px !important;
+    font-size: 15px !important;
+}
+
+.tab-content{
+    min-height: 622px;
+}
+.box-hotel{
+    background: rgba(255, 255, 255,1) !important;
+    -moz-border-radius:0px 0px 2px 2px !important;
+    -webkit-border-radius: 0px 0px 2px 2px !important;
+}
+.nav-tabs{
+    background-color: #000000b3;
+    border: 0;
+
+}
+#profileBigImg img{
+    width: 100%;
+    height: 37rem;
+    object-fit: cover;
+}
+
+
+
+
+
+
+#userinfo  .form-group  .reset{
+    position: absolute;
+    right: -25px;
+    top: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #636363;
+    display: none;
+
+}
+#userinfo  .form-group  .reset:hover{
+    color: #888888 ;
+}
+
+#userinfo  .form-group  .reset .fa-repeat{
+
+}
+#userinfo .form-group{
+ width:240px;
+    position: relative;
+    height: 45px;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+
+#userinfo .btn-tertiary {
+    color: #555;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    display: block;
+    border: 2px solid #555 !important;
+}
+#userinfo  .btn-tertiary:hover, .btn-tertiary:focus {
+    color: #888888 !important;
+    border-color: #888888 !important;
+}
+
+/* input file style */
+#userinfo  .input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+#userinfo  .input-file + .js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+#userinfo  .input-file + .js-labelFile .icon:before {
+    content: "\f093";
+}
+#userinfo  .input-file + .js-labelFile.has-file .icon:before {
+    content: "\f00c";
+    color: #5AAC7B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#userinfo .nameuser{
+    display: flex;
+    position: relative;
+    padding: 10px 0px 13px 10px;
+    border-bottom: 1px solid #d0d0d0;
+}
+#userinfo .nameuser .box{
+
+
+}
+#userinfo .nameuser .imguser{
+    position: relative;
+    z-index: 1;
+    background-color: #d2d3d5;
+    border-radius: 50%;
+}
+#userinfo .nameuser .imguser .fa-user-circle-o{
+font-size: 100px;
+color:#949599 ;
+}
+#userinfo  .boxname{
+    position: relative;
+    top: 31px;
+    padding: 7px 14px 7px 32px;
+    background-color: #f7f7f7;
+    left: -22px;
+    z-index: 0;
+    box-shadow: -1px 2px 1px 0px #d7d5d5;
+    display: inline-table;
+}
+#userinfo  .specs{
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 15px;
+}
+#userinfo  .ulspecs{
+    margin-top: 23px;
+
+}
+#userinfo  .ulspecs li{
+    min-height: 40px;
+
+}
+.ulspecs li .tit{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 0px 0 0 20px;
+}
+#userinfo  .ulspecs li .cont{
+    float: right;
+    color: #9a9a9a;
+    width: 50%;
+    text-align: center;
+
+}
+.banktitle{
+    padding: 20px 0 20px 20px;
+}
+.contantbank{
+
+
+}
+.contantbank .box{
+    padding: 12px 14px 0 9px;
+    background-color: #f7f7f7;
+    height: 46px;
+    z-index: 0;
+    box-shadow: -1px 2px 1px 0px #d7d5d5;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #9a9a9a;
+
+}
+.contantbank .box .tit{
+
+
+}
+.contantbank .box .cont{
+
+
+}
+.messagebank{
+    padding: 25px 0px 19px 20px;
+    font-size: 13px;
+}
+
+#userinfo .edit_userinfo{
+
+
+}
+#userinfo .edit_userinfo a{
+    background-color: #cdc9ca;
+    float: right;
+    padding: 3px 13px 9px 13px;
+    border-radius: 7px;
+    font-size: 12px;
+    margin: 0px 20px 20px 0;
+}
+#userinfo .edit_userinfo  .fa-pencil-square-o{
+    font-size: 23px;
+    margin-right: 11px;
+    position: relative;
+    top: 4px;
+
+}
+
+
+
+
+
+
+
+#listreserv{
+
+
+}
+#listreserv .serch{
+    padding: 35px 0 15px 15px;
+
+}
+#listreserv .serch  .tit{
+    color: #9a9a9a;
+
+}
+#listreserv  .serch  .boxserch{
+    position: relative;
+
+}
+#listreserv  .serch  .boxserch::after{
+    font-family: FontAwesome, serif;
+    content: "\f002";
+    color: #fff;
+    position: absolute;
+    right: 7px;
+    top: -15px;
+    bottom: 0;
+    margin: auto 0;
+    display: block;
+    height: 20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+#listreserv  .serch  .boxserch  .input{
+    border: 0;
+    background-color: #dfab57;
+    height: 34px;
+    width: 250px;
+    color: #fff;
+    padding: 0px 0px 0px 10px;
+    box-shadow: 1px 0px 0 1px #ececec;
+    margin-left: 11px;
+
+}
+
+#listreserv  .tablelistreserv{
+    overflow: auto;
+    padding: 15px;
+}
+#listreserv  .tablelistreserv .pwatcher{
+    background-color: #186d94;
+    padding: 4px;
+    font-size: 12px;
+}
+#increase_credit .your_credit{
+    padding: 35px 0px 17px 23px;
+}
+#increase_credit .your_credit  .tit {
+    color: #9a9a9a;
+}
+#increase_credit .your_credit .cont {
+
+
+
+}
+#increase_credit  .form {
+    text-align: center;
+    margin-top: 11%;
+}
+#increase_credit  .form .tit{
+    color: #9a9a9a;
+    margin: 8px 0;
+}
+#increase_credit  .form .input input{
+    width: 190px;
+    height: 33px;
+    border: 1px solid #bab8b8;
+    padding-left: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 0 #e0dbdb;
+
+}
+#increase_credit  .form .submit input{
+    margin-top: 25px;
+    background-color: #186d94;
+    border: 0;
+    color: #fff;
+    padding: 8px 42px;
+    box-shadow: 0 1px 2px 0 #000;
+}
+#increase_credit  .form .submit input:hover{
+color:#dfab57;
+}
+
+#change_password .form{
+    text-align: center;
+    margin-top: 12%;
+
+}
+#change_password .form .box{
+    width: 40%;
+    margin: auto;
+
+}
+#change_password .form .tit{
+    color: #9a9a9a;
+    text-align: left;
+}
+#change_password .form .input {
+    margin-bottom: 26px;
+
+}
+
+#change_password .form .input input{
+    width: 100%;
+    height: 42px;
+    background-color: #f3f3f3;
+    border: 0;
+    box-shadow: 1px 1px 1px 0 #d2cccc;
+    padding-left: 10px;
+
+}
+#change_password .form .submit {
+    text-align: right;
+
+}
+#change_password .form .submit button{
+    margin-top: -9px;
+    background-color: #186d94;
+    border: 0;
+    color: #fff;
+    padding: 10px 12px;
+    box-shadow: 0 1px 2px 0 #000;
+
+}
+#change_password .form .submit input:hover{
+    color:#dfab57;
+}
+
+#send_message .nameuser{
+    display: flex;
+    position: relative;
+    padding: 10px 0px 13px 10px;
+    border-bottom: 1px solid #d0d0d0;
+}
+#send_message .nameuser .box{
+
+
+}
+#send_message .nameuser .imguser{
+    position: relative;
+    z-index: 1;
+    background-color: #d2d3d5;
+    border-radius: 50%;
+}
+#send_message .nameuser .imguser .fa-user-circle-o{
+    font-size: 100px;
+    color:#949599 ;
+}
+#send_message  .boxname{
+    position: relative;
+    top: 31px;
+    padding: 7px 14px 7px 32px;
+    background-color: #f7f7f7;
+    left: -22px;
+    z-index: 0;
+    box-shadow: -1px 2px 1px 0px #d7d5d5;
+    display: inline-table;
+}
+#send_message  .boxname::before{
+    font-family: FontAwesome, serif;
+    content: "\f0e0";
+    color: #dfab57;
+    position: absolute;
+    top: 48px;
+    bottom: 0;
+    margin: auto 0;
+    display: block;
+    height: 20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+#send_message .form {
+    padding: 10px 0 0px 14px;
+
+}
+#send_message .form .title{
+    margin-bottom: 15px;
+}
+#send_message .form .title .star{
+    font-weight: bold;
+    color: #dfab57;
+
+}
+#send_message .form .tit{
+    color: #9a9a9a;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+
+#send_message .form .input input{
+    width: 302px;
+    height: 42px;
+    background-color: #f3f3f3;
+    border: 0;
+    box-shadow: 1px 1px 1px 0 #d2cccc;
+    padding-left: 10px;
+}
+#send_message .form .textarea textarea{
+    width: 80%;
+    height: 251px;
+    background-color: #f3f3f3;
+    border: 0;
+    box-shadow: 1px 1px 1px 0 #d2cccc;
+    padding: 10px;
+
+}
+#send_message .form .submit input{
+    background-color: #186d94;
+    border: 0;
+    color: #fff;
+    padding: 8px 12px;
+    box-shadow: 0 1px 2px 0 #000;
+    margin-bottom: 18px;
+}
+#send_message .form .submit input:hover{
+    color: #dfab57;
+}
+#send_message  .form-group  .reset{
+    position: absolute;
+    right: 2px;
+    top: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #636363;
+    display: none;
+
+}
+#send_message  .form-group  .reset:hover{
+    color: #888888 ;
+}
+
+#send_message  .form-group  .reset .fa-repeat{
+
+}
+#send_message .form-group{
+    width: 331px;
+    position: relative;
+    height: 45px;
+}
+
+#send_message .btn-tertiary {
+    color: #555;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    display: block;
+    border: 2px solid #555 !important;
+}
+#send_message  .btn-tertiary:hover, .btn-tertiary:focus {
+    color: #888888 !important;
+    border-color: #888888 !important;
+}
+
+/* input file style */
+#send_message  .input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+#send_message  .input-file + .js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+#send_message  .input-file + .js-labelFile .icon:before {
+    content: "\f093";
+}
+#send_message  .input-file + .js-labelFile.has-file .icon:before {
+    content: "\f00c";
+    color: #5AAC7B;
+}
+#manage_messages  .listmessage {
+    padding: 15px;
+    overflow: auto;
+}
+#manage_messages  .listmessage  .subject{
+    background-color: #186d94;
+    padding: 2px;
+    font-size: 12px;
+}
+#manage_messages  .listmessage  .subject:hover{
+    color: #dfab57;
+}
+
+
+#my_favorite .nameuser{
+    display: flex;
+    position: relative;
+    padding: 10px 0px 13px 10px;
+    border-bottom: 1px solid #d0d0d0;
+}
+#my_favorite .nameuser .box{
+
+
+}
+#my_favorite .nameuser .imguser{
+    position: relative;
+    z-index: 1;
+    background-color: #d2d3d5;
+    border-radius: 50%;
+}
+#my_favorite .nameuser .imguser .fa-user-circle-o{
+    font-size: 100px;
+    color:#949599 ;
+}
+#my_favorite  .boxname{
+    position: relative;
+    top: 31px;
+    padding: 7px 14px 7px 32px;
+    background-color: #f7f7f7;
+    left: -22px;
+    z-index: 0;
+    box-shadow: -1px 2px 1px 0px #d7d5d5;
+    display: inline-table;
+}
+#my_favorite  .boxname::before{
+    font-family: FontAwesome, serif;
+    content: "\f005";
+    color: #dfab57;
+    position: absolute;
+    top: 48px;
+    bottom: 0;
+    margin: auto 0;
+    display: block;
+    height: 20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+#my_favorite .mainbox{
+    padding: 10px 0 0px 14px;
+
+}
+#my_favorite .mainbox .title{
+    margin-bottom: 15px;
+}
+#my_favorite .mainbox .title .star{
+    font-weight: bold;
+    color: #dfab57;
+
+}
+#my_favorite .mainbox  .listfavorite {
+    position: relative;
+    min-height: 450px;
+
+
+
+}
+#my_favorite .mainbox  .listfavorite .default{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 20px;
+    color: #9a9a9a;
+    text-align: center;
+}
+#my_favorite .mainbox  .listfavorite  .default::before{
+    font-family: FontAwesome, serif;
+    content: "\f005";
+    color: rgba(195, 195, 195, 0.3);
+    position: absolute;
+    top: -69px;
+    right: 0;
+    display: block;
+    height: 20px;
+    cursor: pointer;
+    font-size: 65px;
+    width: 72px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+@media only screen and (max-width:500px){
+
+    #listreserv .serch .boxserch{
+        display: block;
+        margin-top: 16px;
+        width: 250px;
+    }
+    #listreserv .serch .boxserch .input{
+        margin-left: 0px;
+
+    }
+    #listreserv .serch .boxserch::after{
+        right: 7px;
+        top: -11px;
+    }
+
+
+}
+
+
+
+#form_edit {
+    padding: 25px 25px 0px 25px;
+}
+#form_edit .sumbit_edit{
+    text-align: right;
+    padding: 0 24px 0 0;
+    height: 36px;
+    margin-bottom: 15px;
+    margin-top: -18px;
+}
+
+#form_edit  .rowedit{
+    margin-bottom: 15px;
+
+}
+
+
+#form_edit .form-horizontal .control-label ,#form_edit label {
+
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+.font-red{
+    color: red;
+}
+
+
+#form_edit .bg-success{
+    height: 45px;
+    padding: 11px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

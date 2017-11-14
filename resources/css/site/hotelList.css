@@ -1,0 +1,247 @@
+#hotelList .box-hotel{
+    margin-top: 20px;
+}
+#hotelList img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+/*----slider------*/
+#hotelList #slider .box-hotel{
+    margin: 20px 0;
+    padding: 15px 15px 15px 0;
+}
+#slider header{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#slider header h5{
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #777;
+}
+#slider header img{
+    vertical-align: bottom;
+}
+#slider-2 .owl-item img {
+    height: 260px;
+    border-radius: 5px;
+}
+#slider-2 .owl-item img {
+    height: 260px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+#slider-2 .owl-item figcaption {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    width: auto;
+    height: 40px;
+    background-color: #fff;
+    padding: 2px 7px;
+    box-shadow: 0 0 2px 1px #222222;
+    border-radius: 5px;
+}
+#slider-2 .owl-item figcaption h6,#slider-2 .owl-item figcaption h5{
+    margin: 3px 0;
+    color: #555;
+    font-size: 12px;
+}
+#slider-2 .owl-item figcaption h6{
+    font-size: 10px;
+    font-weight: bold;
+}
+#slider-2 .owl-item figcaption h5{
+    font-size: 12px;
+    font-variant: small-caps;
+}
+#slider-2 .owl-item figcaption h6 span{
+    font-size: 14px;
+    color: #0e6790;
+}
+#slider-2 .owl-item figcaption h5 a{
+    color: #0e6790;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#slider-2 .owl-item figcaption h5 a:hover{
+    color: #000;
+}
+#slider-2 .owl-item figcaption h5 a .fa-eye{
+    color: #7c622d;
+    font-size: 14px;
+}
+
+#slider-2 .owl-prev{
+    left: 0;
+}
+#slider-2 .owl-prev,#slider-2 .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.4s;
+    opacity:1;
+}
+#slider-2 .owl-prev:hover,#slider-2 .owl-next:hover {
+    color: #dfab57;
+}
+#slider-2 .owl-next {
+    right: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #dfab57;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #f7f4ed;
+}
+#slider-2 .owl-thumbs {
+    position: absolute;
+    right: -53%;
+    top: 0;
+    width: 51%;
+    height: 100%;
+}
+#slider-2 .owl-thumb-item {
+    width: 130px;
+    display: inline-block;
+    padding: 0;
+    background: transparent;
+    border: none;
+    height: auto;
+    margin: 0 20px 20px 0;
+}
+#slider-2 .owl-thumb-item img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.14);
+    -webkit-filter: contrast(1.4) brightness(0.6);
+    filter: contrast(1.4) brightness(0.6);
+    outline: none;
+}
+#slider-2 .owl-thumb-item.active img {
+    -webkit-filter: contrast(1) brightness(1);
+    filter: contrast(1) brightness(1);
+}
+/**/
+/*filter*/
+#filterBox {
+    background-image: url("../../img/talatona-convention-hotels.jpg");
+    background-size: cover;
+}
+#filterBox .ivi3-cover{
+    float: left;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+}
+#filterBox .ivi3-title{
+    line-height: 7;
+}
+#filterBox .ivi3-title h3{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+#filterBox .ivi3-title img{
+    vertical-align: sub;
+}
+#filterBox .form-group{
+    margin: 5px;
+    width: 23%;
+    display: inline-block;
+}
+#filterBox .form-group input::placeholder,#filterBox .form-group select{
+    font-size: 10px;
+}
+#filterBox .btn {
+    background-color: #186d94;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    font-size: 13px;
+    height: 34px;
+    width: 144%;
+    line-height: 2rem;
+}
+#filterBox .btn:hover {
+    background-color: #186d94;
+}
+#filterBox input[type='date'] {
+    width:90%;
+}
+
+/**/
+
+/*----list ---------*/
+#hotels .card {
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+#hotels .cardContent {
+    padding: 1rem;
+}
+#hotels .cartImage {
+    overflow: hidden;
+    position: relative;
+}
+#hotels .cartImage img {
+    -webkit-filter: contrast(70%);
+    filter: contrast(70%);
+    -webkit-transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+    transition: -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+    transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+    transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91), -webkit-filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+#hotels .card:hover .cartImage img {
+    -webkit-filter: contrast(100%);
+    filter: contrast(100%);
+}
+#hotels .cartImage h6 {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color: rgba(0,0,0,.3);
+    height:35px;
+    line-height:35px;
+    width: 100%;
+    color: #ffffff;
+    margin:0;
+    padding-left:20px;
+}
+#hotels .cardTitle {
+    color: #696969;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#hotels .cardText {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin: 0.5rem 0 1.25rem;
+}
+#hotels .btn {
+    background-color: white;
+    border: 1px solid #cccccc;
+    color: #696969;
+    padding: 0.5rem;
+    text-transform: lowercase;
+    display: block;
+    width: 100%;
+    transition: 0.3s all;
+}
+#hotels .btn:hover {
+    background-color: #186d94;
+    color: #fff;
+}

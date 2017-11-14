@@ -1,0 +1,285 @@
+/*global*/
+
+.no-padding-sm {
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+.ivi3-header{
+    height:61px;
+}
+#slider-1 {
+    height: 500px;
+}
+#slider-1 .owl-item img {
+    height: 500px !important;
+}
+/*-----------slider---------------*/
+.sliderb{
+    width: 94%;
+    margin: 15px auto !important;
+}
+.sliderb .media-carousel img{
+    height: 175px !important;
+}
+/*-----------package-----------*/
+.package{
+    padding: 13px 10px 6px 10px;
+    width: 98%;
+}
+.package .boxb{
+    border: 0;
+   }
+.package .box .icons {
+    margin-top: 5px;
+}
+.sliderb {
+    margin: 15px 0;
+}
+.Paraloxa, .Paraloxb {
+    margin: 15px 0;
+}
+.visa {
+    margin-bottom: 15px;
+    padding: 16px;
+    width: 100%;
+}
+.Paraloxa .content .box p, .Paraloxb .content .box p {
+    font-size: 13px;
+}
+
+#slider-1 {
+    height: 500px;
+}
+#slider-1 .owl-item img {
+    height: 500px !important;
+}
+#ivi3-wrapperMenu.toggled #sidebar-wrapper {
+    width: 320px;
+}
+#ivi3-FormSlider .main-center {
+    margin: 15px auto;
+}
+.hamburger.is-open{
+    margin-left: 110px;
+}
+/*-----------SOUVENIRS-----------*/
+.souvenir .box .image .title{
+    padding-left:29px !important;
+}
+
+/*----------------list------------------*/
+.pakegs.box-hotel .img-responsive{
+    width: 100%;
+    padding: 0 60px;
+}
+#touristAttractions #slider-1{
+    margin-top: 15px;
+    height: 100%;
+}
+#touristAttractions #slider-1 .owl-item img {
+    height: auto;
+    width: 100%;
+}
+
+
+/*--------------packeg-------------*/
+
+.trip ul {
+    padding: 0px 0px 0px 12px;
+}
+.trip ul li{
+    width: 100%;
+}
+.trip ul {
+    margin-bottom: 25px;
+}
+.trip .image-trip img{
+    width: 100%;
+}
+#myCarousel{
+    width:100%;
+}
+#custom_carousel .controls li img{
+    width: 50%;
+}
+.pakegs .datepakegs a{
+    width: 85%;
+    justify-content: center;
+    height: 33px;
+}
+.pakegs .datepakegs{
+    display: flow-root;
+}
+.pakegs .attractions{
+    display: flow-root;
+}
+.pakegs .attractions a{
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+.pakegs .about .content{
+    margin-bottom: 4px;
+}
+.pakegs .about .title{
+    margin: 0px 0 4px 0;
+}
+.pakegs .specs .box{
+    margin-bottom: 8px;
+}
+.pakegs .about .content{
+    width: 100%;
+}
+
+/*----------list site---------*/
+
+#slider-2 .owl-thumbs {
+    display: none;
+}
+#hotelList #slider-2 .owl-theme .owl-nav {
+    margin-top: 5px;
+}
+#hotelList #filterBox .form-group {
+    width: 31%;
+}
+#hotelList #filterBox .ivi3-title {
+    line-height: 3;
+    margin-left: 5px;
+}
+#hotelList #slider-2 .owl-prev,#hotelList #slider-2 .owl-next {
+    top: 40%;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #b78c33;
+}
+.pakegs .specs p{
+
+}
+.pakegs .specs .title{
+
+    background-color: #0e6790;
+    margin-right: 10px;
+}
+.pakegs .specs .service .title p{
+
+}
+.pakegs .specs .number-daye p ,.pakegs .about .title{
+    color: #dfab57;
+}
+.pakegs .specs .title{
+    color: #fff;
+}
+.pakegs .specs .service .title{
+    background-color: inherit;
+    margin-right: 0;
+}
+.pakegs .specs .spacea{
+    padding: 0px 2px 0 36px;
+}
+.pakegs .specs .spaceb {
+    padding: 0 0px 0 50px;
+}
+.pakegs  .specs{
+    border-bottom: 1px solid #eee;
+}
+.pakegs .stars {
+    display: block;
+}
+
+#wantVisa {
+    top: 105%;
+}
+/*---------------site Detiles----------*/
+
+#aboutHotel #offerLabel {
+    left: -20%;
+}
+#aboutHotel .owl-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+#hotelBigImg img {
+    height: 35rem;
+}
+#aboutHotel .description p{
+    margin: 0 -20px;
+}
+#content_reservroom .content .img-room{
+    width: 150px;
+    margin: 10px auto;
+}
+#content_reservroom .content .img-room .icon{
+    display:none;
+}
+#reservroom .roomtype .boxa h6{
+    width: 104px;
+    font-size: 12px;
+}
+#reservroom .roomtype .boxb h6{
+    font-size: 12px;
+}
+#reservroom .catering ul li{
+    width: 90%;
+    font-size: 12px;
+}
+#reservroom .price{
+    margin: 28px 0 0 0;
+    padding: 0px 0px 0 4px;
+}
+#reservroom .price .prices .box{
+    font-size: 12px;
+    font-weight: bold;
+}
+#reservroom .price .click_box .box{
+    font-size: 10px;
+    font-weight: bold;
+}
+#reservroom .price .click_box .boxb{
+    border-right: 9px solid #fff0;
+    border-top: 9px solid #4c9fd1;
+    bottom: -9px;
+    right: 4px;
+}
+#content_reservroom .tilte h6{
+    font-size: 13px;
+}
+#reservroom .catering .fa{
+    font-size: 15px;
+}
+
+#features{
+
+}
+#general{
+
+
+}
+#general .cont{
+    font-size: 12px;
+}
+#general .tit{
+    font-size: 13px;
+}
+#features .cont{
+    font-size: 12px;
+}
+#features .tit{
+    font-size: 13px;
+}
+/*reserve*/
+
+#formPay form .form-inline{
+    text-align: left;
+}
+#formPay form .finalPrice{
+    margin-top:10px;
+    text-align: right;
+}
+
+/*pay*/
+#lastStepPayment header h2 {
+    width: 52%;
+}

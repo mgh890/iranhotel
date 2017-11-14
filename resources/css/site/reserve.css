@@ -1,0 +1,113 @@
+/*global*/
+.border-bottom{
+    border-bottom: 1px solid #ccc;
+}
+.box-hotel{
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+/*end*/
+#hotelBigImg img{
+    width: 100%;
+    height: 56rem;
+    object-fit: cover;
+}
+/*#thisPackage*/
+#reserve{
+    margin-bottom: 30px;
+}
+#thisPackage{
+    position: relative;
+    margin-top: -15rem;
+    background-color: #fff;
+}
+#thisPackage header h2,#formPay header h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    font-variant: petite-caps;
+}
+#thisPackage header .fa,#formPay header .fa{
+    font-size: 26px;
+    color: #b58a32;
+    vertical-align: sub;
+}
+#thisPackage h3{
+    font-size: 16px;
+    margin: 10px 0;
+    padding-left: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-variant: petite-caps;
+    color: #b78c33;
+}
+#thisPackage h4{
+    text-align: center;
+    color: #777;
+    font-size: 22px;
+    font-variant-caps: all-petite-caps;
+}
+#thisPackage span.price{
+    color: #5cb85c;
+    font-weight: bold;
+}
+#thisPackage h4.msg{
+    text-align: center;
+    font-size: 18px;
+    font-variant-caps: all-petite-caps;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+    margin: 5px auto;
+    color: #186d94;
+    background-color: rgba(46, 165, 219, 0.16);
+    padding:2px 5px;
+}
+/*form*/
+#formPay{
+
+}
+
+#formPay .col-lg-6{
+    margin-bottom: 10px;
+}
+#formPay header h2 span{
+    font-size: 18px;
+    color: #777;
+    font-weight: normal;
+}
+#formPay .ivi3-icon{
+    font-size: 22px;
+    color: #186d94;
+    font-weight: normal;
+}
+#formPay .ivi3-form {
+    border-radius: 50px ;
+    box-shadow: 0 3px 2px 0 #aaa ;
+    height: 25px ;
+    font-size: 12px ;
+    background-color: #eeeeee ;
+}
+#formPay .finalPrice label {
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: sub;
+    color: #5cb85c;
+    transition: all 0.3s;
+}
+#formPay .btn-warning {
+    color: #fff;
+    background-color: #b78c33;
+    border-color: transparent;
+    border-radius: 50px;
+}
+#formPay .finalPrice:hover label{
+    font-size: 25px;
+}
+#formPay form .form-inline{
+    text-align: center;
+}
+
+

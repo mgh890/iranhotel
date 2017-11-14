@@ -1,0 +1,524 @@
+.pkage-img{
+    margin: 0px -15px 0 -15px;
+}
+.pkage-img img{
+    width: 100%;
+    height: 55rem;
+    object-fit: cover;
+}
+/* carousel */
+.media-carousel
+{
+    margin-bottom: 0;
+    padding: 0 9px 0px 9px;
+    margin-top: 8px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+    left: -4px;
+    background-image: none;
+    background-color: #dfab57;
+
+    border-radius: 23px 23px 23px 23px;
+    height: 25px;
+    width : 25px;
+
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+    right: -1px !important;
+    background-image: none;
+    background-color: #dfab57;
+
+    border-radius: 23px 23px 23px 23px;
+    height: 25px;
+    width : 25px;
+
+}
+.media-carousel  .carousel-control {
+    top:41% !important;
+    opacity:1 !important;
+    text-shadow:inherit !important;
+    margin-bottom: 8px !important;
+}
+.media-carousel  .carousel-control .icon-left{
+    margin: 2px 4px 0 0 !important;
+}
+.media-carousel  .carousel-control .icon-right{
+    margin: 0px 0px 0px 3px !important;
+
+}
+
+
+
+
+
+
+
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+    background: #333333;
+}
+.media-carousel img
+{
+    width:100%;
+
+}
+/* End carousel */
+.carousel,
+.item,
+.active {
+    /*height: 400PX;*/
+}
+
+.carousel-inner {
+    height: 100%;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+.fill img{
+    width: 100%;
+    height: 100%;
+
+}
+.thumbnail{
+   padding: 0px !important;
+    border-radius:0px !important;
+}
+.thumbnail:hover{
+border: 2px solid #deab58 !important;
+}
+
+
+.description {
+position: relative;
+    background: #fff !important;
+    margin-bottom: 15px;
+  widows: 3;
+}
+.description .box-pric{
+    width: 227px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -122px;
+    background-color: #f6f3e5;
+    text-align: center;
+    border-radius: 190px 190px 0 0;
+    min_height: 137px;
+    padding: 19px 20px 0px 20px;
+    height: 122px;
+
+}
+.description .box-pric  .pric{
+    color: #5cb85c;
+    font-size: 31px;
+    font-weight: bold;
+
+}
+.description .box-pric  p{
+    text-align: justify;
+    font-size: 11px;
+
+}
+
+
+
+.description .tilte {
+    border-bottom: 2px solid #eee;
+    padding: 10px 0px 6px 13px;
+}
+.description .tilte .shar{
+
+    color: #616161;
+}
+.description .tilte .fa{
+    color: #e9e927;
+ }
+
+.description .tilte p{
+    color: #cdcdcd;
+    font-size: 14px;
+    font-weight: bold;
+}
+.description .tilte .icon img{
+    width: 37px;
+}
+.description .content {
+    padding: 8px 0 13px 15px;
+}
+.description .content .box{
+
+}
+.description .content .p1{
+    color: #606060;
+    margin-bottom: 11px;
+}
+.description .content .p1 .number-daye{
+    font-weight: bold;
+    font-size: 18px;
+    color: #616161;
+}
+.description .content .p2{
+    color: #606060;
+    width: 70%;
+ }
+
+.photo {
+    background: #fff;
+    margin-bottom: 15px;
+}
+.photo .tilte{
+    border-bottom: 2px solid #eee;
+    padding: 12px 0px 10px 13px;
+}
+.photo .tilte .fa-camera{
+    font-size: 30px;
+    color: #dc891f;
+}
+.photo .tilte p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #616161;
+}
+.photo .tilte p .tit{
+    margin-left:10px;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+@media only screen and (max-width:522px){
+    .trip .image-trip img{
+        width:100% !important;
+    }
+}
+
+
+
+.trip {
+    background: #fff;
+    margin-bottom: 15px;
+}
+.trip .tilte{
+    border-bottom: 2px solid #eee;
+    padding: 12px 0px 10px 13px;
+}
+.trip .tilte .fa-question-circle-o{
+    font-size: 30px;
+    color: #dc891f;
+}
+.trip .tilte p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #616161;
+}
+.trip .tilte p .tit{
+    margin-left:10px;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+.trip ul {
+    padding: 0 0 0 12px;
+}
+.trip ul li{
+    color: #606060;
+    margin-top: 23px;
+    width: 77%;
+    display: flex;
+}
+.trip ul li .fa-check{
+    font-size: 28px;
+    color: #599263;
+    margin-right: 5px;
+}
+.trip ul li .matn {
+    position: relative;
+    top: 10px;
+}
+.trip .image-trip {
+    padding: 13px;
+    text-align: right;
+}
+.trip .image-trip img{
+    width: 72%;
+    height: 220px;
+}
+
+.details {
+    background: #fff;
+    margin-bottom: 15px;
+}
+.details .tilte{
+    border-bottom: 2px solid #eee;
+    padding: 12px 0px 10px 13px;
+    height: 54px;
+}
+.details .tilte .fa-bed{
+    font-size: 30px;
+    color: #dc891f;
+}
+.details .tilte p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #616161;
+}
+.details .tilte p .tit{
+    margin-left:10px;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+.details .tilte .namehotel{
+    float: right;
+    color: #606060;
+    width: 50%;
+    text-align: center;
+}
+.details .tilte .box{
+    float: left;
+}
+.details ul {
+
+}
+.details ul li{
+    margin-top: 20px;
+    color: #606060;
+    display: flex;
+}
+
+.details .ul-left {
+    float: left;
+    padding-left: 14px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.details .ul-right {
+    float: right;
+    width: 50%;
+    margin-bottom: 20px;
+    padding-left: 6px;
+}
+.details ul li .matn{
+    position: relative;
+    bottom: -13px;
+    margin-left: 7px;
+}
+.details ul li .icon{
+    font-size: 27px;
+    color: #0e6790;
+}
+@media only screen and (max-width:370px){
+    .details .tilte .namehotel{
+        width: 35%;
+    }
+    .details .tilte .namehotel h5{
+        font-size: 11px;
+        padding-right: 2px;
+    }
+    .details ul li .matn{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+#myCarousel {
+    width:80%;
+    float: right;
+    margin: 20px 15px 20px 0;
+}
+
+.rules {
+    background: #fff;
+    margin-bottom: 15px;
+}
+.rules .tilte{
+    border-bottom: 2px solid #eee;
+    padding: 5px 0px 7px 13px;
+}
+.rules .tilte .box img{
+    width:41px;
+}
+.rules .tilte p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #616161;
+}
+.rules .tilte p .tit{
+    margin-left:10px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.rules .content  {
+    padding: 12px 31px 26px 15px;
+}
+.rules .content p {
+    line-height: 27px;
+    color: #606060;
+}
+
+.visit {
+    margin-bottom: 15px;
+}
+.visit .box{
+    width: 230px;
+    background-color: #0e6790;
+    height: 68px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0e4660;
+    margin: auto;
+}
+.visit .box h4{
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.form-comment {
+    background: #fff;
+    margin-bottom: 15px;
+}
+.form-comment .tilte{
+    border-bottom: 2px solid #eee;
+    padding: 12px 0px 10px 13px;
+}
+.form-comment .tilte .fa-comments{
+    font-size: 30px;
+    color: #dc891f;
+}
+.form-comment .tilte p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #616161;
+}
+.form-comment .tilte p .tit{
+    margin-left:10px;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+.form-comment .form {
+    padding: 10px 24px;
+}
+.form-comment .form .boxa{
+    margin-bottom: 10px;
+}
+.form-comment .form .boxa  .input{
+    border: 0;
+    background-color: #dcdcdc;
+    height: 33px;
+    margin-right: 10px;
+    font-size: 13px;
+    padding-left: 7px;
+    width: 19%;
+}
+.form-comment .form  .boxb{
+
+}
+.form-comment .form   .boxb  .matn {
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    border: 0px none;
+    height: 125px;
+    font-size: 13px;
+    padding: 7px;
+}
+.form-comment .form  .boxc{
+
+}
+.form-comment .form  .boxc .submit{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.form-comment .form  .boxc .submit .btn{
+    border: 0;
+    background-color: #dc891f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0;
+}
+@media only screen and (max-width:500px){
+    .form-comment .form .boxa .input{
+        width:100% !important;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+.comment {
+    background-color: #c5c5c5;
+    padding: 11px 0px 2px 22px;
+}
+.comment .nameuser{
+
+}
+.comment .nameuser .box .box-img{
+    display: inline-block;
+
+}
+.comment .nameuser .box img{
+    border-radius: 100%;
+}
+.comment .nameuser .box .name{
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.comment .matn{
+    margin-top: 11px;
+}
+.comment .matn p{
+
+}
+.comment .like{
+    height: 35px;
+}
+.comment .like .box{
+    float: right;
+    width: 93px;
+}
+.comment .like .box .icona{
+    display: inline-grid;
+    margin-right: 16px;
+}
+.comment .like .box .iconb{
+    display: inline-grid;
+}
+.comment .like .box .fa-reply{
+    color: #5cb85c;
+    font-size: 18px;
+}
+.comment .like .box .fa-heart{
+    color: #f43a28;
+}
+.comment .like .box .like{
+    color: #f43a28;
+    font-size: 9px;
+}
+.comment .like .box .answer{
+    font-size: 9px;
+}

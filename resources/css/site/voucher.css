@@ -1,0 +1,98 @@
+#voucher {
+}
+#voucher .title {
+    text-align: center;
+    padding: 24px 0 40px 0px;
+}
+#voucher .title .tit{
+    font-size: 34px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 11px;
+}
+#voucher .title .tit  .icon{
+    margin-right: 10px;
+    color: #b78c33;
+}
+#voucher .title  .date{
+    font-size: 18px;
+}
+#voucher .title  .date  .num{
+    color: #b78c33;
+    margin-left: 6px;
+    letter-spacing: 2px;
+}
+#voucher .tablevoucher{
+
+overflow: auto;
+
+}
+#voucher .tablevoucher .table{
+background-color: #fff;
+
+
+}
+#voucher .tablevoucher .table tbody{
+  color: #9a9a9a;
+    text-align: center;
+}
+#voucher .tablevoucher .table thead  .tit{
+    padding: 6px 0;
+}
+#voucher .tablevoucher .table thead  .tit i {
+   color:#b78c33;
+    margin-right: 7px;
+}
+#voucher .tablevoucher .table  th ,#voucher .tablevoucher .table  td {
+    text-align: center;
+    padding: 15px 0;
+}
+#voucher .tablevoucher .table .contrule{
+    text-align: left;
+    padding: 0 21px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

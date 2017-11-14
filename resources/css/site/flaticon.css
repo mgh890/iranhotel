@@ -1,0 +1,198 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:17
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../../fonts/Flaticon.woff") format("woff"),
+       url("../../fonts/Flaticon.ttf") format("truetype"),
+       url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-baber-scissors:before { content: "\f100"; }
+.flaticon-bathroom-shower:before { content: "\f101"; }
+.flaticon-bell-boy:before { content: "\f102"; }
+.flaticon-berth-bed:before { content: "\f103"; }
+.flaticon-bowling-ball-and-two-bowls:before { content: "\f104"; }
+.flaticon-cleaning-room:before { content: "\f105"; }
+.flaticon-credit-card-payment:before { content: "\f106"; }
+.flaticon-door-hanger:before { content: "\f107"; }
+.flaticon-double-king-size-bed:before { content: "\f108"; }
+.flaticon-fire-extinguisher-signal:before { content: "\f109"; }
+.flaticon-food-delivery:before { content: "\f10a"; }
+.flaticon-frontal-taxi:before { content: "\f10b"; }
+.flaticon-golf-court:before { content: "\f10c"; }
+.flaticon-holiday-suitcase:before { content: "\f10d"; }
+.flaticon-home-telephone:before { content: "\f10e"; }
+.flaticon-hot-coffee-mug:before { content: "\f10f"; }
+.flaticon-hotel-bell:before { content: "\f110"; }
+.flaticon-hotel-building:before { content: "\f111"; }
+.flaticon-hotel-hair-dryer:before { content: "\f112"; }
+.flaticon-hotel-lamp:before { content: "\f113"; }
+.flaticon-hotel-lift:before { content: "\f114"; }
+.flaticon-iron-service:before { content: "\f115"; }
+.flaticon-karaoke-room:before { content: "\f116"; }
+.flaticon-large-key:before { content: "\f117"; }
+.flaticon-laundry-service:before { content: "\f118"; }
+.flaticon-margarita-drink:before { content: "\f119"; }
+.flaticon-medicine-bottle:before { content: "\f11a"; }
+.flaticon-meeting-room:before { content: "\f11b"; }
+.flaticon-open-toilet:before { content: "\f11c"; }
+.flaticon-running-on-a-treadmill:before { content: "\f11d"; }
+.flaticon-safe-deposit-box:before { content: "\f11e"; }
+.flaticon-security-cam:before { content: "\f11f"; }
+.flaticon-single-bed:before { content: "\f120"; }
+.flaticon-single-hotel-bed:before { content: "\f121"; }
+.flaticon-smoking-room:before { content: "\f122"; }
+.flaticon-soup-spoon-and-fork:before { content: "\f123"; }
+.flaticon-swimming-pool-ladder:before { content: "\f124"; }
+.flaticon-television-screen:before { content: "\f125"; }
+.flaticon-tooth-brush-and-paste:before { content: "\f126"; }
+.flaticon-towel-on-hanger:before { content: "\f127"; }
+.flaticon-upstairs:before { content: "\f128"; }
+.flaticon-vintage-bathtube:before { content: "\f129"; }
+.flaticon-wifi-access:before { content: "\f12a"; }
+.flaticon-wine-bottle-and-glass:before { content: "\f12b"; }
+
+
+
+    @font-face {
+        font-family: "Flaticonb";
+        src: url("../../fonts/Flaticonb.eot");
+        src: url("../../fonts/Flaticonb.eot?#iefix") format("embedded-opentype"),
+        url("../../fonts/Flaticonb.woff") format("woff"),
+        url("../../fonts/Flaticonb.ttf") format("truetype"),
+        url("../../fonts/Flaticonb.svg#Flaticon") format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        @font-face {
+            font-family: "Flaticonb";
+            src: url("../../fonts/Flaticonb.svg#Flaticon") format("svg");
+        }
+    }
+
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticonb;
+        font-size: 20px;
+        font-style: normal;
+        margin-left: 20px;
+    }
+
+    .flaticon-agenda:after { content: "\f100"; }
+    .flaticon-air-conditioner:after { content: "\f101"; }
+    .flaticon-bathrobe:after { content: "\f102"; }
+    .flaticon-bathtub:after { content: "\f103"; }
+    .flaticon-bed:after { content: "\f104"; }
+    .flaticon-bed-1:after { content: "\f105"; }
+    .flaticon-bed-2:after { content: "\f106"; }
+    .flaticon-bed-3:after { content: "\f107"; }
+    .flaticon-beds:after { content: "\f108"; }
+    .flaticon-bell:after { content: "\f109"; }
+    .flaticon-building:after { content: "\f10a"; }
+    .flaticon-building-1:after { content: "\f10b"; }
+    .flaticon-building-2:after { content: "\f10c"; }
+    .flaticon-bunk:after { content: "\f10d"; }
+    .flaticon-burj-al-arab:after { content: "\f10e"; }
+    .flaticon-calendar:after { content: "\f10f"; }
+    .flaticon-car:after { content: "\f110"; }
+    .flaticon-cctv:after { content: "\f111"; }
+    .flaticon-cocktail:after { content: "\f112"; }
+    .flaticon-coffee:after { content: "\f113"; }
+    .flaticon-cutlery:after { content: "\f114"; }
+    .flaticon-doorknob:after { content: "\f115"; }
+    .flaticon-doorknob-1:after { content: "\f116"; }
+    .flaticon-doorknob-2:after { content: "\f117"; }
+    .flaticon-doorknob-3:after { content: "\f118"; }
+    .flaticon-elevator:after { content: "\f119"; }
+    .flaticon-elevator-1:after { content: "\f11a"; }
+    .flaticon-escalator:after { content: "\f11b"; }
+    .flaticon-escalator-1:after { content: "\f11c"; }
+    .flaticon-exchange:after { content: "\f11d"; }
+    .flaticon-fast-food:after { content: "\f11e"; }
+    .flaticon-fire-extinguisher:after { content: "\f11f"; }
+    .flaticon-hairdryer:after { content: "\f120"; }
+    .flaticon-hairdryer-1:after { content: "\f121"; }
+    .flaticon-hanger:after { content: "\f122"; }
+    .flaticon-hotel:after { content: "\f123"; }
+    .flaticon-hotel-1:after { content: "\f124"; }
+    .flaticon-hotel-2:after { content: "\f125"; }
+    .flaticon-hotel-3:after { content: "\f126"; }
+    .flaticon-hotel-4:after { content: "\f127"; }
+    .flaticon-hotel-5:after { content: "\f128"; }
+    .flaticon-hotel-sign:after { content: "\f129"; }
+    .flaticon-hotel-sign-1:after { content: "\f12a"; }
+    .flaticon-hotel-sign-2:after { content: "\f12b"; }
+    .flaticon-hotel-sign-3:after { content: "\f12c"; }
+    .flaticon-hotel-sign-4:after { content: "\f12d"; }
+    .flaticon-information:after { content: "\f12e"; }
+    .flaticon-laptop:after { content: "\f12f"; }
+    .flaticon-location:after { content: "\f130"; }
+    .flaticon-luggage:after { content: "\f131"; }
+    .flaticon-luggage-1:after { content: "\f132"; }
+    .flaticon-luggage-2:after { content: "\f133"; }
+    .flaticon-luggage-3:after { content: "\f134"; }
+    .flaticon-luggage-4:after { content: "\f135"; }
+    .flaticon-luggage-5:after { content: "\f136"; }
+    .flaticon-meal:after { content: "\f137"; }
+    .flaticon-menu:after { content: "\f138"; }
+    .flaticon-menu-1:after { content: "\f139"; }
+    .flaticon-menu-2:after { content: "\f13a"; }
+    .flaticon-menu-3:after { content: "\f13b"; }
+    .flaticon-menu-4:after { content: "\f13c"; }
+    .flaticon-menu-5:after { content: "\f13d"; }
+    .flaticon-monitor:after { content: "\f13e"; }
+    .flaticon-no-pictures:after { content: "\f13f"; }
+    .flaticon-no-smoking:after { content: "\f140"; }
+    .flaticon-parking:after { content: "\f141"; }
+    .flaticon-parking-1:after { content: "\f142"; }
+    .flaticon-passport:after { content: "\f143"; }
+    .flaticon-reception:after { content: "\f144"; }
+    .flaticon-restaurant:after { content: "\f145"; }
+    .flaticon-room-key:after { content: "\f146"; }
+    .flaticon-room-key-1:after { content: "\f147"; }
+    .flaticon-room-key-2:after { content: "\f148"; }
+    .flaticon-room-service:after { content: "\f149"; }
+    .flaticon-room-service-1:after { content: "\f14a"; }
+    .flaticon-room-service-2:after { content: "\f14b"; }
+    .flaticon-room-service-3:after { content: "\f14c"; }
+    .flaticon-safebox:after { content: "\f14d"; }
+    .flaticon-shower:after { content: "\f14e"; }
+    .flaticon-slippers:after { content: "\f14f"; }
+    .flaticon-smoking:after { content: "\f150"; }
+    .flaticon-stool:after { content: "\f151"; }
+    .flaticon-suitcase:after { content: "\f152"; }
+    .flaticon-suitcase-1:after { content: "\f153"; }
+    .flaticon-telephone:after { content: "\f154"; }
+    .flaticon-telephone-1:after { content: "\f155"; }
+    .flaticon-television:after { content: "\f156"; }
+    .flaticon-towel:after { content: "\f157"; }
+    .flaticon-vacuum-cleaner:after { content: "\f158"; }
+    .flaticon-wifi:after { content: "\f159"; }
+
+
+
+

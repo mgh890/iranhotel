@@ -1,0 +1,12 @@
+/*global*/
+.no-padding-lg {
+    padding: 0;
+    margin: 0;
+}
+/*----------list site---------*/
+#hotelList #slider{
+    padding: 10px 15px 10px 0;
+}
+#wantVisa {
+    top: 95%;
+}

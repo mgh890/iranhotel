@@ -1,0 +1,105 @@
+/*global*/
+.no-padding-md {
+    padding: 0;
+    margin: 0;
+}
+/*-----------sliderB---------------*/
+.sliderb{
+    width:100%;
+}
+.slidera{
+   width:99%;
+}
+/*-----------package-----------*/
+.package{
+    padding: 13px 10px 6px 10px;
+    width: 98%;
+}
+/*header*/
+#SafarHotelLogo img{
+    left: 15px;
+}
+#ivi3-searchHeader input{
+    width: 100%;
+}
+#ivi3-searchHeader:after{
+    left: 86%;
+}
+#ivi3-nav .ivi3-nav li, #ivi3-addressHeader li {
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+#ivi3-nav .nav ul li:hover > ul {
+    left: 140px;
+}
+#ivi3-nav ul, #ivi3-addressHeader ul {
+     margin-left: 0;
+}
+#ivi3-addressHeader .col-lg-3 ul li {
+
+}
+#ivi3-addressHeader li {
+    font-size: 13px;
+}
+/*---------package list-------------*/
+#ivi3-FormSlider .main-center {
+    padding: 10px 20px;
+}
+.pakegs.box-hotel .img-responsive{
+    width: 100%;
+    height: 170px;
+}
+.pakegs .stars {
+display: block;
+}
+
+/*------------site list ---------*/
+#hotelList #slider{
+    padding: 10px 15px 10px 0;
+}
+#hotelList #slider .col-lg-9{
+     padding: 0 0 0 30px;
+ }
+#hotelList #slider-2 .owl-thumbs {
+    right: -56%;
+    width: 52%;
+}
+#hotelList #slider-2 .owl-thumb-item {
+}
+#filterBox .ivi3-title {
+     line-height: 3;
+ }
+/*---------------site Detiles----------*/
+#aboutHotel .description{
+    margin: 0 -30px 0 -60px;
+}
+#reservroom .catering ul li{
+    width: 90%;
+}
+#reservroom .price .click_box .box{
+    font-size: 13px;
+}
+#reservroom .price .prices .box{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
